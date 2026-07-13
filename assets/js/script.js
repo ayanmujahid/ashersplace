@@ -127,6 +127,38 @@
     track.closest(".story-slider").addEventListener("mouseenter", function () { clearInterval(autoplay); });
   }
 
+  /* ---------- Team member slider ---------- */
+  var teamTrack = document.getElementById("teamTrack");
+  var teamDots = document.getElementById("teamDots");
+  var teamPrev = document.getElementById("teamPrev");
+  var teamNext = document.getElementById("teamNext");
+  if (teamTrack && teamDots) {
+    var teamSlides = teamTrack.querySelectorAll(".team-slide");
+    var teamCurrent = 0;
+
+    function goToTeam(index) {
+      if (!teamSlides.length) return;
+      teamCurrent = (index + teamSlides.length) % teamSlides.length;
+      teamTrack.style.transform = "translateX(-" + teamCurrent * 100 + "%)";
+      teamDots.querySelectorAll("button").forEach(function (dot, i) {
+        dot.classList.toggle("active", i === teamCurrent);
+      });
+    }
+
+    teamSlides.forEach(function (_, i) {
+      var dot = document.createElement("button");
+      dot.setAttribute("aria-label", "Go to team member " + (i + 1));
+      if (i === 0) dot.classList.add("active");
+      dot.addEventListener("click", function () { goToTeam(i); });
+      teamDots.appendChild(dot);
+    });
+
+    if (teamPrev) teamPrev.addEventListener("click", function () { goToTeam(teamCurrent - 1); });
+    if (teamNext) teamNext.addEventListener("click", function () { goToTeam(teamCurrent + 1); });
+
+    setInterval(function () { goToTeam(teamCurrent + 1); }, 6000);
+  }
+
   /* ---------- Gallery lightbox ---------- */
   var lightbox = document.getElementById("lightbox");
   var lightboxImg = document.getElementById("lightboxImg");

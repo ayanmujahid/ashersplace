@@ -1099,30 +1099,43 @@
     }
 
     /* ===========================================================
-   MEET THE FACES OF ASHER'S PLACE — team grid
+   MEET THE FACES OF ASHER'S PLACE — team slider
    =========================================================== */
     .team-section {
         padding: 100px 0;
         background: var(--gray-bg);
     }
 
-    .team-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 40px;
-        max-width: 900px;
+    .team-slider {
+        max-width: 980px;
         margin: 0 auto;
+        overflow: hidden;
     }
 
-    .team-card {
-        text-align: center;
+    .team-track {
+        display: flex;
+        transition: transform .6s var(--ease);
+    }
+
+    .team-slide {
+        min-width: 100%;
+        display: grid;
+        grid-template-columns: minmax(220px, 320px) 1fr;
+        gap: clamp(24px, 4vw, 44px);
+        align-items: center;
+        padding: 0 8px;
+    }
+
+    .team-media {
+        display: flex;
+        justify-content: center;
     }
 
     .team-photo {
-        width: 160px;
-        height: 160px;
-        margin: 0 auto 20px;
-        border-radius: 50%;
+        width: min(100%, 280px);
+        aspect-ratio: 1;
+        margin: 0;
+        border-radius: 24px;
         overflow: hidden;
         border: 3px solid var(--gold);
         box-shadow: var(--shadow-soft);
@@ -1134,21 +1147,80 @@
         object-fit: cover;
     }
 
+    .team-card {
+        text-align: left;
+    }
+
     .team-card h3 {
-        font-size: 1.1rem;
-        margin-bottom: 4px;
+        font-size: 1.28rem;
+        margin-bottom: 10px;
     }
 
     .team-role {
         display: block;
-        font-size: 0.88rem;
+        font-size: 0.96rem;
+        line-height: 1.7;
         color: var(--charcoal-soft);
     }
 
+    .team-controls {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        margin-top: 28px;
+    }
+
+    .team-btn {
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        border: 1px solid rgba(20, 48, 77, 0.16);
+        background: #fff;
+        color: var(--navy);
+        cursor: pointer;
+        transition: transform .3s var(--ease), background .3s var(--ease);
+    }
+
+    .team-btn:hover {
+        transform: translateY(-2px);
+        background: var(--gold);
+        color: var(--navy-dark);
+    }
+
+    .team-dots {
+        display: flex;
+        gap: 8px;
+    }
+
+    .team-dots button {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: none;
+        background: rgba(20, 48, 77, 0.25);
+        padding: 0;
+        transition: background .3s, transform .3s;
+    }
+
+    .team-dots button.active {
+        background: var(--gold);
+        transform: scale(1.25);
+    }
+
     @media (max-width: 720px) {
-        .team-grid {
+        .team-slide {
             grid-template-columns: 1fr;
-            max-width: 320px;
+            text-align: center;
+            padding: 0 4px;
+        }
+
+        .team-card {
+            text-align: center;
+        }
+
+        .team-photo {
+            width: min(100%, 240px);
         }
     }
 
@@ -2627,27 +2699,68 @@
             <h2 class="section-title reveal">Meet the Faces of Asher's Place</h2>
             <p class="section-lede reveal" style="margin-left:auto; margin-right:auto;">The team dedicated every day to bridging the gap between homelessness and permanent independence.</p>
         </div>
-        <div class="team-grid reveal">
-            <div class="team-card">
-                <div class="team-photo">
-                    <img src="assets/images/team-placeholder.jpg" alt="Founder &amp; Initial Director of Asher's Place Community Homes" loading="lazy">
-                </div>
-                <h3>Founder &amp; Initial Director</h3>
-                <span class="team-role">Asher's Place Community Homes</span>
+        <div class="team-slider reveal">
+            <div class="team-track" id="teamTrack">
+                <article class="team-slide">
+                    <div class="team-media">
+                        <div class="team-photo">
+                            <img src="assets/images/founders/1.jpeg" alt="Founder &amp; Initial Director of Asher's Place Community Homes" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="team-card">
+                        <h3>Founder &amp; Initial Director</h3>
+                        <span class="team-role">Guiding Asher's Place with a mission rooted in dignity, stability, and practical housing solutions for those facing homelessness.</span>
+                    </div>
+                </article>
+                <article class="team-slide">
+                    <div class="team-media">
+                        <div class="team-photo">
+                            <img src="assets/images/founders/2.jpg" alt="Community partnerships leader at Asher's Place Community Homes" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="team-card">
+                        <h3>Community Partnerships Lead</h3>
+                        <span class="team-role">Building lasting relationships with landlords, funders, and local partners to expand safe, supportive housing opportunities across Ontario.</span>
+                    </div>
+                </article>
+                <article class="team-slide">
+                    <div class="team-media">
+                        <div class="team-photo">
+                            <img src="assets/images/founders/3.jpg" alt="Support services team member at Asher's Place Community Homes" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="team-card">
+                        <h3>Support Services Team</h3>
+                        <span class="team-role">Delivering responsive case management, housing navigation, and day-to-day support that helps residents build a stable path forward.</span>
+                    </div>
+                </article>
+                <article class="team-slide">
+                    <div class="team-media">
+                        <div class="team-photo">
+                            <img src="assets/images/founders/4.jpeg" alt="Operations and housing team member at Asher's Place Community Homes" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="team-card">
+                        <h3>Operations &amp; Housing Team</h3>
+                        <span class="team-role">Coordinating the practical details that sustain safe, well-managed homes and keep residents connected to the care they need.</span>
+                    </div>
+                </article>
+                <article class="team-slide">
+                    <div class="team-media">
+                        <div class="team-photo">
+                            <img src="assets/images/founders/5.jpeg" alt="Community engagement team member at Asher's Place Community Homes" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="team-card">
+                        <h3>Community Engagement Team</h3>
+                        <span class="team-role">Connecting neighbors, volunteers, and advocates so the mission can grow from local care into long-term housing impact.</span>
+                    </div>
+                </article>
             </div>
-            <div class="team-card">
-                <div class="team-photo">
-                    <img src="assets/images/team-placeholder.jpg" alt="Team member of Asher's Place Community Homes" loading="lazy">
-                </div>
-                <h3>Team Member</h3>
-                <span class="team-role">Asher's Place Community Homes</span>
-            </div>
-            <div class="team-card">
-                <div class="team-photo">
-                    <img src="assets/images/team-placeholder.jpg" alt="Team member of Asher's Place Community Homes" loading="lazy">
-                </div>
-                <h3>Team Member</h3>
-                <span class="team-role">Asher's Place Community Homes</span>
+            <div class="team-controls">
+                <button type="button" class="team-btn" id="teamPrev" aria-label="Previous team member">&larr;</button>
+                <div class="team-dots" id="teamDots"></div>
+                <button type="button" class="team-btn" id="teamNext" aria-label="Next team member">&rarr;</button>
             </div>
         </div>
     </div>
