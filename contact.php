@@ -34,6 +34,10 @@
             <div><strong>Partnership Inquiries</strong><span>partnerships@ashersplace.ca</span></div>
           </li>
           <li>
+            <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.6-7-11a7 7 0 1114 0c0 6.4-7 11-7 11z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="10" r="2.4" stroke="currentColor" stroke-width="1.6"/></svg></span>
+            <div><strong>Administrative Office</strong><span>71 Rosedale, Building B, Unit #B12<br>Brampton, ON L6X 1K4</span></div>
+          </li>
+          <li>
             <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3.5 2" stroke="currentColor" stroke-width="1.6"/></svg></span>
             <div><strong>Daytime Support Window</strong><span>8:00 AM &ndash; 8:00 PM daily<br>12-Hour Mobile Support Framework</span></div>
           </li>
@@ -45,14 +49,14 @@
 
         <div class="map-container">
     <iframe
-        src="https://www.google.com/maps?q=535+Main+St+N,+Brampton,+ON+L6X+3C9&z=15&output=embed"
+        src="https://www.google.com/maps?q=71+Rosedale+Building+B+Unit+B12,+Brampton,+ON+L6X+1K4&z=15&output=embed"
         width="100%"
         height="220"
         style="border:0;"
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
-        aria-label="Map showing Asher's Place location at 535 Main St North, Brampton, ON L6X 3C9">
+        aria-label="Map showing Asher's Place location at 71 Rosedale, Building B, Unit B12, Brampton, ON L6X 1K4">
     </iframe>
 </div>
       </div>

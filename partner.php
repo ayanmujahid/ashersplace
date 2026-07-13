@@ -64,7 +64,10 @@
           <p>Zero vacancy rates, zero turnover costs, and zero collection friction for a minimum of 48 months.</p>
         </div>
       </div>
-      <p class="reveal" style="text-align:center; margin-top:40px;"><a href="contact.php" class="btn btn-navy">Partner as a Landlord</a></p>
+      <p class="reveal" style="text-align:center; margin-top:40px; display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+        <a href="contact.php" class="btn btn-navy">Partner as a Landlord</a>
+        <a href="mailto:partnerships@ashersplace.ca?subject=Landlord%20Info%20Package%20Request" class="btn btn-ghost-dark">Download Our Landlord Info Package</a>
+      </p>
     </div>
   </section>
 

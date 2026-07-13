@@ -1983,11 +1983,11 @@
         </div>
         <div class="container hero-inner">
             <p class="eyebrow eyebrow-light reveal">Community Housing &amp; Support Services</p>
-            <h1 class="hero-title reveal">Dignified Living. Daytime Support. Permanent Independence.</h1>
-            <p class="hero-sub reveal">Alleviating homelessness in Ontario through innovative 12-hour supportive housing models.</p>
+            <h1 class="hero-title reveal">Dignified Living. Guaranteed Stability. Fast-Tracking Affordable Housing.</h1>
+            <p class="hero-sub reveal">We bypass construction delays through an innovative master-lease model, creating supportive, furnished, clustered communities for low- and median-income earners in Ontario.</p>
             <div class="hero-actions reveal">
-                <a href="partner.php" class="btn btn-cream">Partner as a Landlord</a>
-                <a href="#campaign" class="btn btn-outline-light">Explore the 20-Unit Campaign</a>
+                <a href="partner.php" class="btn btn-cream">Partner With Us (Landlords)</a>
+                <a href="donate.php" class="btn btn-outline-light">Support Our Mission (Lenders &amp; Donors)</a>
             </div>
             <div class="trust-badges reveal">
                 <div class="trust-badge"><strong>20</strong><span>Unit Campaign Target</span></div>
@@ -1996,6 +1996,42 @@
             </div>
         </div>
         <a href="#about" class="scroll-cue" aria-label="Scroll to learn more"><span></span></a>
+    </section>
+
+    <!-- ============ OUR MODEL — HOW IT WORKS ============ -->
+    <section class="giving-options" id="our-model">
+        <div class="container">
+            <div class="section-head reveal">
+                <p class="eyebrow">Our Model</p>
+                <h2 class="section-title">Housing Reimagined for Rapid Social Impact</h2>
+                <p class="section-lede">Traditional affordable housing development takes years and millions in capital. We can&rsquo;t wait that long. Our NGO solves the housing crisis today through a secure, self-sustaining framework:</p>
+            </div>
+            <div class="giving-grid reveal">
+                <div class="giving-card">
+                    <span class="giving-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none">
+                            <path d="M14 7a4 4 0 10-3.86 4.99L4 18v2h2l6.14-6.14A4 4 0 0014 7z" stroke="currentColor" stroke-width="1.6" />
+                            <path d="M15.5 9.5L18 12M17 7.5L19.5 10" stroke="currentColor" stroke-width="1.6" />
+                        </svg></span>
+                    <h3>The Master Lease</h3>
+                    <p>We sign long-term (4-year) corporate leases directly with private landlords for clustered houses and apartments.</p>
+                </div>
+                <div class="giving-card">
+                    <span class="giving-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none">
+                            <path d="M12 3l9 5-9 5-9-5 9-5z" stroke="currentColor" stroke-width="1.6" />
+                            <path d="M3 13l9 5 9-5M3 8l9 5 9-5" stroke="currentColor" stroke-width="1.6" />
+                        </svg></span>
+                    <h3>The Subsidy Stack</h3>
+                    <p>We integrate reliable government housing benefits (COHB, ODSP, OW, CPP) to cover 100% of market rent.</p>
+                </div>
+                <div class="giving-card">
+                    <span class="giving-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none">
+                            <path d="M12 21s-7-4.35-9.5-9C.5 8 2 4 6 4c2.2 0 3.6 1.2 4.5 2.4C11.4 5.2 12.8 4 15 4c4 0 5.5 4 3.5 8-2.5 4.65-9.5 9-9.5 9z" stroke="currentColor" stroke-width="1.6" />
+                        </svg></span>
+                    <h3>The Support System</h3>
+                    <p>We sub-lease units to verified tenants and wrap them in localized, bi-weekly case management and social care.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- ============ 20-UNIT CAMPAIGN ============ -->
@@ -2027,6 +2063,43 @@
                 </div>
             </div>
             <p class="reveal" style="color:rgba(255,255,255,0.6); font-size:0.85rem; margin-top:20px;">Progress: Funding initial setup toward our target of 20 units.</p>
+        </div>
+    </section>
+
+    <!-- ============ ROADMAP TO WINTER ============ -->
+    <section class="giving-options" id="roadmap">
+        <div class="container">
+            <div class="section-head reveal">
+                <p class="eyebrow">Our Impact Metrics &amp; Goals</p>
+                <h2 class="section-title">The Roadmap to Winter</h2>
+                <p class="section-lede">We build small, highly efficient, clustered community settings that maximize administrative dollars and optimize local care.</p>
+            </div>
+            <div class="giving-grid reveal">
+                <div class="giving-card">
+                    <span class="giving-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none">
+                            <path d="M4 21V10l8-6 8 6v11" stroke="currentColor" stroke-width="1.6" />
+                            <path d="M9 21v-6h6v6" stroke="currentColor" stroke-width="1.6" />
+                        </svg></span>
+                    <h3>4 Rooms</h3>
+                    <p>Immediate pilot active and locked-in.</p>
+                </div>
+                <div class="giving-card">
+                    <span class="giving-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none">
+                            <rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.6" />
+                            <path d="M3 9h18M8 3v3M16 3v3" stroke="currentColor" stroke-width="1.6" />
+                        </svg></span>
+                    <h3>20 Units</h3>
+                    <p>Our target for full deployment across the region by this Winter.</p>
+                </div>
+                <div class="giving-card">
+                    <span class="giving-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none">
+                            <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6" />
+                            <path d="M8.5 12.5l2.3 2.3L16 10" stroke="currentColor" stroke-width="1.6" />
+                        </svg></span>
+                    <h3>100% Direct Pay</h3>
+                    <p>Every single unit is structurally backed by secure, direct-pay provincial and federal housing benefits.</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -2181,7 +2254,8 @@
             </div>
             <div class="section-head section-head--light">
                 <p class="eyebrow eyebrow-light reveal">Why Landlords Partner With Us</p>
-                <h2 class="section-title section-title--light reveal">Secure, risk-mitigated leasing for property owners.</h2>
+                <h2 class="section-title section-title--light reveal">Your Property. Our Guarantee. Zero Headaches.</h2>
+                <p class="reveal" style="color:rgba(255,255,255,0.78)">Partnering with our NGO means turning your rental property into a secure social impact asset without taking on operational risk.</p>
             </div>
             <div class="stats-grid reveal">
                 <div class="stat-item">
@@ -2194,10 +2268,13 @@
                     <span class="stat-label"><strong style="color:#fff; display:block; font-family:var(--font-display); font-size:1.1rem; margin-bottom:6px;">$15,000 Mitigation Fund</strong>A locked cash escrow account pays for accidental tenant damage out-of-pocket, bypassing Landlord &amp; Tenant Board delays completely.</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-label"><strong style="color:#fff; display:block; font-family:var(--font-display); font-size:1.1rem; margin-bottom:6px;">4-Year Stability</strong>Zero vacancy rates, zero turnover costs, and zero collection friction for a minimum of 48 months.</span>
+                    <span class="stat-label"><strong style="color:#fff; display:block; font-family:var(--font-display); font-size:1.1rem; margin-bottom:6px;">Zero Vacancy Risk</strong>We hold a 4-year master lease, so even during tenant transitions your income never stops&mdash;zero vacancy rates, zero turnover costs, zero collection friction for a minimum of 48 months.</span>
                 </div>
             </div>
-            <p class="reveal" style="text-align:center; margin-top:34px;"><a href="partner.php" class="btn btn-gold">Partner as a Landlord</a></p>
+            <p class="reveal" style="text-align:center; margin-top:34px; display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+                <a href="partner.php" class="btn btn-gold">Partner as a Landlord</a>
+                <a href="mailto:partnerships@ashersplace.ca?subject=Landlord%20Info%20Package%20Request" class="btn btn-outline-light">Download Our Landlord Info Package</a>
+            </p>
         </div>
     </section>
 
@@ -2403,6 +2480,21 @@
         </div>
     </section>
 
+    <!-- ============ BUILD TOGETHER CTA ============ -->
+    <section class="stats" id="build-together">
+        <div class="container">
+            <div class="section-head section-head--light">
+                <h2 class="section-title section-title--light reveal">Let&rsquo;s Build a Stronger Community Together</h2>
+                <p class="reveal" style="color:rgba(255,255,255,0.78); max-width:700px; margin-left:auto; margin-right:auto;">Are you a social financier, a community organization, or a local landlord with properties to lease? Get in touch with our team today.</p>
+            </div>
+            <p class="reveal" style="text-align:center; display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+                <a href="mailto:info@ashersplace.ca" class="btn btn-cream">info@ashersplace.ca</a>
+                <a href="tel:+18888493319" class="btn btn-outline-light">+1 888 849 3319</a>
+            </p>
+            <p class="reveal" style="text-align:center; color:rgba(255,255,255,0.55); font-size:0.85rem; margin-top:20px;">Corporate Registration: Ontario Non-Profit Corporation &middot; Federal Charitable Registration: In Queue / Pending</p>
+        </div>
+    </section>
+
     <!-- ============ CONTACT ============ -->
     <section class="contact" id="contact">
         <div class="container contact-grid">
@@ -2443,7 +2535,7 @@
                                 <path d="M12 21s-7-4.6-7-11a7 7 0 1114 0c0 6.4-7 11-7 11z" stroke="currentColor" stroke-width="1.6" />
                                 <circle cx="12" cy="10" r="2.4" stroke="currentColor" stroke-width="1.6" />
                             </svg></span>
-                        <div><strong>Administrative Office</strong><span>535 Main St North<br>Brampton, ON L6X 3C9</span></div>
+                        <div><strong>Administrative Office</strong><span>71 Rosedale, Building B, Unit #B12<br>Brampton, ON L6X 1K4</span></div>
                     </li>
                     <li>
                         <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none">
@@ -2456,14 +2548,14 @@
 
                 <div class="map-container">
     <iframe
-        src="https://www.google.com/maps?q=535+Main+St+N,+Brampton,+ON+L6X+3C9&z=15&output=embed"
+        src="https://www.google.com/maps?q=71+Rosedale+Building+B+Unit+B12,+Brampton,+ON+L6X+1K4&z=15&output=embed"
         width="100%"
         height="220"
         style="border:0;"
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
-        aria-label="Map showing Asher's Place location at 535 Main St North, Brampton, ON L6X 3C9">
+        aria-label="Map showing Asher's Place location at 71 Rosedale, Building B, Unit B12, Brampton, ON L6X 1K4">
     </iframe>
 </div>
             </div>
