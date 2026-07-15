@@ -61,6 +61,16 @@
     </div>
   </section>
 
+  <!-- ============ EQUAL OPPORTUNITY STATEMENT ============ -->
+  <section class="eeo-statement" id="equal-opportunity">
+    <div class="container">
+      <div class="eeo-block reveal">
+        <h3 class="eeo-title">Equal Opportunity &amp; Inclusive Hiring</h3>
+        <p>Asher&rsquo;s Place Community Homes is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive, barrier-free environment for all employees and volunteers. We strongly encourage applications from Indigenous peoples, Black individuals, racialized persons, members of the 2SLGBTQIA+ community, and individuals with lived experience of housing insecurity. Accommodations are available upon request for candidates taking part in all aspects of our selection process under the Accessibility for Ontarians with Disabilities Act (AODA).</p>
+      </div>
+    </div>
+  </section>
+
 
 </main>
 

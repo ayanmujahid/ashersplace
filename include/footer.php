@@ -35,7 +35,7 @@
     </div>
     <div class="footer-col">
       <h4>Contact &amp; Legal Identity</h4>
-      <a href="mailto:info@ashersplace.ca">General Inquiries</a>
+      <a href="mailto:info@ashersplacecommunityhomes.ca">General Inquiries</a>
       <a href="mailto:partnerships@ashersplace.ca">Partnership Inquiries</a>
       <a href="mailto:careers@ashersplace.ca">Careers Inquiries</a>
       <a href="get-involved.php">Ways to Give</a>

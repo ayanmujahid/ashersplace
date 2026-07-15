@@ -81,6 +81,11 @@
           <p>Approved participants sign an Emergency Inter-Agency Consent Form, linking them directly to regional crisis networks (like COAST Halton or Gerstein Centre) for absolute overnight peace of mind.</p>
         </div>
       </div>
+
+      <div class="intake-policy reveal">
+        <h3 class="intake-policy-title">Anti-Discriminatory Intake Policy</h3>
+        <p>In complete alignment with the Ontario Human Rights Code, Asher&rsquo;s Place Community Homes enforces a strict anti-discriminatory intake framework. Our use of the standardized SPDAT screening tool ensures that candidates are evaluated solely on their objective acuity and overnight safety matching. We provide equal housing access regardless of race, ancestry, place of origin, color, ethnic origin, citizenship, creed, sex, sexual orientation, gender identity, gender expression, age, marital status, family status, or disability.</p>
+      </div>
     </div>
   </section>
 

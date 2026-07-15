@@ -31,6 +31,17 @@
         <p class="reveal"><strong>Our Mission:</strong> To bridge the critical gap between homelessness&mdash;including emergency shelter dependency&mdash;and permanent independence by providing stable, affordable housing coupled with targeted, daytime mobile case management.</p>
         <p class="reveal"><strong>Our Vision:</strong> A future where temporary vulnerability does not lead to permanent homelessness, and where community-based, public-private partnerships create sustainable paths to lifelong housing stability.</p>
 
+        <div class="dei-block reveal">
+          <h3 class="dei-title">Our Commitment to Diversity, Equity, and Inclusion (DEI)</h3>
+          <p>At Asher&rsquo;s Place Community Homes, DEI is not a policy checkbox&mdash;it is the operational foundation of our housing model. True housing stability cannot exist without cultural safety and absolute equity. We recognize that systemic barriers disproportionately push marginalized communities into housing insecurity.</p>
+          <p>We actively dismantle these barriers through three core commitments:</p>
+          <ul class="dei-list">
+            <li><strong>Equitable Care Delivery:</strong> Our 12-Hour Daytime Mobile Support model is explicitly tailored to respect individual cultural backgrounds, gender identities, and lived experiences. We deliver trauma-informed care that honors the unique identity of every resident.</li>
+            <li><strong>Inclusive Field Frameworks:</strong> We strictly cultivate a workforce and volunteer network that reflects the rich diversity of the Halton, Peel, Toronto, and Durham regions we serve.</li>
+            <li><strong>Accessible Systems:</strong> We continually optimize our physical setups, documentation, and communication pathways to ensure our housing environments are welcoming and accessible to individuals of all abilities and backgrounds.</li>
+          </ul>
+        </div>
+
         <div class="values-grid reveal">
           <div class="value-item">
             <span class="value-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.35-9.5-9C.5 8 2 4 6 4c2.2 0 3.6 1.2 4.5 2.4C11.4 5.2 12.8 4 15 4c4 0 5.5 4 3.5 8-2.5 4.65-9.5 9-9.5 9z" stroke="currentColor" stroke-width="1.6"/></svg></span>

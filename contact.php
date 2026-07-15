@@ -27,7 +27,7 @@
           </li>
           <li>
             <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M3 7l9 6 9-6" stroke="currentColor" stroke-width="1.6"/></svg></span>
-            <div><strong>General Inquiries</strong><span>info@ashersplace.ca</span></div>
+            <div><strong>General Inquiries</strong><span>info@ashersplacecommunityhomes.ca</span></div>
           </li>
           <li>
             <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 5h4l2 5-2.5 1.5a11 11 0 005 5L14 14l5 2v4a2 2 0 01-2 2C9.6 22 2 14.4 2 7a2 2 0 012-2z" stroke="currentColor" stroke-width="1.6"/></svg></span>

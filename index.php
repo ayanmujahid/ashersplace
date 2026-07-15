@@ -1955,94 +1955,94 @@
             gap: 14px;
         }
     }
-    
+
     .map-container {
-    height: 220px;
-    border-radius: 20px;
-    overflow: hidden;
-    border: 1px solid var(--border-soft);
-}
+        height: 220px;
+        border-radius: 20px;
+        overflow: hidden;
+        border: 1px solid var(--border-soft);
+    }
 
-.map-container iframe {
-    width: 100%;
-    height: 100%;
-    display: block;
-}
+    .map-container iframe {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
 
-.founder-footnote {
-    background: var(--navy-dark);
-    color: rgba(255, 255, 255, 0.85);
-    padding: 80px 0;
-}
-
-.founder-footnote__inner {
-    display: grid;
-    grid-template-columns: 220px 1fr;
-    gap: 44px;
-    align-items: flex-start;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.founder-footnote__media {
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 3px solid var(--gold);
-    flex-shrink: 0;
-}
-
-.founder-footnote__media img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.founder-footnote__content p {
-    margin-bottom: 16px;
-}
-
-.founder-footnote__quote {
-    font-style: italic;
-    font-size: 1.05rem;
-    color: rgba(255, 255, 255, 0.85);
-}
-
-.founder-footnote__name {
-    color: #fff;
-    font-family: var(--font-display);
-    font-weight: 700;
-    margin: 0;
-}
-
-.founder-footnote__role {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 0.9rem;
-    margin: 0;
-}
-
-@media (max-width: 720px) {
     .founder-footnote {
-        padding: 60px 0;
+        background: var(--navy-dark);
+        color: rgba(255, 255, 255, 0.85);
+        padding: 80px 0;
     }
 
     .founder-footnote__inner {
-        grid-template-columns: 1fr;
-        gap: 24px;
-        justify-items: center;
-        text-align: center;
+        display: grid;
+        grid-template-columns: 220px 1fr;
+        gap: 44px;
+        align-items: flex-start;
+        max-width: 900px;
+        margin: 0 auto;
     }
 
     .founder-footnote__media {
-        width: 180px;
-        height: 180px;
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 3px solid var(--gold);
+        flex-shrink: 0;
+    }
+
+    .founder-footnote__media img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .founder-footnote__content p {
+        margin-bottom: 16px;
     }
 
     .founder-footnote__quote {
-        font-size: 1rem;
+        font-style: italic;
+        font-size: 1.05rem;
+        color: rgba(255, 255, 255, 0.85);
     }
-}
+
+    .founder-footnote__name {
+        color: #fff;
+        font-family: var(--font-display);
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .founder-footnote__role {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 0.9rem;
+        margin: 0;
+    }
+
+    @media (max-width: 720px) {
+        .founder-footnote {
+            padding: 60px 0;
+        }
+
+        .founder-footnote__inner {
+            grid-template-columns: 1fr;
+            gap: 24px;
+            justify-items: center;
+            text-align: center;
+        }
+
+        .founder-footnote__media {
+            width: 180px;
+            height: 180px;
+        }
+
+        .founder-footnote__quote {
+            font-size: 1rem;
+        }
+    }
 </style>
 
 <main id="home">
@@ -2055,7 +2055,7 @@
         </div>
         <div class="container hero-inner">
             <p class="eyebrow eyebrow-light reveal">Community Housing &amp; Support Services</p>
-            <h1 class="hero-title reveal">Dignified Living. Guaranteed Stability. Fast-Tracking Affordable Housing.</h1>
+            <h1 class="hero-title reveal">Dignified Supportive Living. Guaranteed Stability. Fast-Tracking Affordable Housing.</h1>
             <p class="hero-sub reveal">We bypass construction delays through an innovative master-lease model, creating supportive, furnished, clustered communities for low- and median-income earners in Ontario.</p>
             <div class="hero-actions reveal">
                 <a href="partner.php" class="btn btn-cream">Partner With Us (Landlords)</a>
@@ -2194,6 +2194,16 @@
                 <p class="reveal">Founded as a proactive response to Ontario's visible housing crisis, Asher's Place Community Homes is an incorporated provincial non-profit organization. Our Why is simple: many people experiencing homelessness&mdash;whether stuck in emergency shelter systems or coming out of mental health rehabilitation&mdash;possess the daily living skills needed to thrive independently, yet they experience recurring housing failures simply due to a lack of structured daytime stabilization, baseline accountability, and targeted care.</p>
                 <p class="reveal"><strong>Our Mission:</strong> To bridge the critical gap between homelessness&mdash;including emergency shelter dependency&mdash;and permanent independence by providing stable, affordable housing coupled with targeted, daytime mobile case management.</p>
                 <p class="reveal"><strong>Our Vision:</strong> A future where temporary vulnerability does not lead to permanent homelessness, and where community-based, public-private partnerships create sustainable paths to lifelong housing stability.</p>
+                <div class="dei-block reveal">
+          <h3 class="dei-title">Our Commitment to Diversity, Equity, and Inclusion (DEI)</h3>
+          <p>At Asher&rsquo;s Place Community Homes, DEI is not a policy checkbox&mdash;it is the operational foundation of our housing model. True housing stability cannot exist without cultural safety and absolute equity. We recognize that systemic barriers disproportionately push marginalized communities into housing insecurity.</p>
+          <p>We actively dismantle these barriers through three core commitments:</p>
+          <ul class="dei-list">
+            <li><strong>Equitable Care Delivery:</strong> Our 12-Hour Daytime Mobile Support model is explicitly tailored to respect individual cultural backgrounds, gender identities, and lived experiences. We deliver trauma-informed care that honors the unique identity of every resident.</li>
+            <li><strong>Inclusive Field Frameworks:</strong> We strictly cultivate a workforce and volunteer network that reflects the rich diversity of the Halton, Peel, Toronto, and Durham regions we serve.</li>
+            <li><strong>Accessible Systems:</strong> We continually optimize our physical setups, documentation, and communication pathways to ensure our housing environments are welcoming and accessible to individuals of all abilities and backgrounds.</li>
+          </ul>
+        </div>
 
                 <div class="values-grid reveal">
                     <div class="value-item">
@@ -2232,6 +2242,95 @@
         </div>
     </section>
 
+    <!-- ============ FOUNDER'S WELCOME NOTE ============ -->
+    <section class="founder-footnote" id="founders-note">
+        <div class="container founder-footnote__inner">
+            <div class="founder-footnote__media">
+                <img src="assets/images/nancy.jpeg" alt="Founder of Asher's Place Community Homes" loading="lazy">
+            </div>
+            <div class="founder-footnote__content">
+                <p class="eyebrow eyebrow-light">A Note From Our Founder</p>
+                <p class="founder-footnote__quote">"Homelessness is a massive crisis, but the solution can be built one apartment, one life, and one daytime check-in at a time. Thank you for standing with us to open doors and rebuild lives."</p>
+                <p class="founder-footnote__name">Nancy Audu </p>
+                <p class="founder-footnote__role">Founder &amp; Initial Director, Asher's Place Community Homes</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ MEET THE FACES OF ASHER'S PLACE ============ -->
+    <section class="team-section" id="team">
+        <div class="container">
+            <div class="section-head" style="text-align:center; max-width:640px; margin-left:auto; margin-right:auto;">
+                <p class="eyebrow reveal" style="justify-content:center;">The People Behind The Mission</p>
+                <h2 class="section-title reveal">Meet the Faces of Asher's Place</h2>
+                <p class="section-lede reveal" style="margin-left:auto; margin-right:auto;">The team dedicated every day to bridging the gap between homelessness and permanent independence.</p>
+            </div>
+            <div class="team-slider reveal">
+                <div class="team-track" id="teamTrack">
+                    <article class="team-slide">
+                        <div class="team-media">
+                            <div class="team-photo">
+                                <img src="assets/images/founders/1.jpeg" alt="Founder &amp; Initial Director of Asher's Place Community Homes" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="team-card">
+                            <h3>Director Board</h3>
+                            <span class="team-role">Guiding Asher's Place with a mission rooted in dignity, stability, and practical housing solutions for those facing homelessness.</span>
+                        </div>
+                    </article>
+                    <article class="team-slide">
+                        <div class="team-media">
+                            <div class="team-photo">
+                                <img src="assets/images/founders/2.jpg" alt="Community partnerships leader at Asher's Place Community Homes" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="team-card">
+                            <h3>Board Director</h3>
+                            <span class="team-role">Building lasting relationships with landlords, funders, and local partners to expand safe, supportive housing opportunities across Ontario.</span>
+                        </div>
+                    </article>
+                    <article class="team-slide">
+                        <div class="team-media">
+                            <div class="team-photo">
+                                <img src="assets/images/founders/3.jpg" alt="Support services team member at Asher's Place Community Homes" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="team-card">
+                            <h3>Director , Community engagement team</h3>
+                            <span class="team-role">Delivering responsive case management, housing navigation, and day-to-day support that helps residents build a stable path forward.</span>
+                        </div>
+                    </article>
+                    <article class="team-slide">
+                        <div class="team-media">
+                            <div class="team-photo">
+                                <img src="assets/images/founders/4.jpeg" alt="Operations and housing team member at Asher's Place Community Homes" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="team-card">
+                            <h3>Operations &amp; Housing Team</h3>
+                            <span class="team-role">Coordinating the practical details that sustain safe, well-managed homes and keep residents connected to the care they need.</span>
+                        </div>
+                    </article>
+                    <article class="team-slide">
+                        <div class="team-media">
+                            <div class="team-photo">
+                                <img src="assets/images/founders/5.jpeg" alt="Community engagement team member at Asher's Place Community Homes" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="team-card">
+                            <h3>Support service Team</h3>
+                            <span class="team-role">Connecting neighbors, volunteers, and advocates so the mission can grow from local care into long-term housing impact.</span>
+                        </div>
+                    </article>
+                </div>
+                <div class="team-controls">
+                    <button type="button" class="team-btn" id="teamPrev" aria-label="Previous team member">&larr;</button>
+                    <div class="team-dots" id="teamDots"></div>
+                    <button type="button" class="team-btn" id="teamNext" aria-label="Next team member">&rarr;</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- ============ WHAT WE DO ============ -->
     <section class="services" id="services">
@@ -2419,24 +2518,6 @@
         </div>
     </section>
 
-    <!-- ============ FOUNDER'S MESSAGE ============ -->
-    <section class="stories" id="stories">
-        <div class="container">
-            <div class="section-head">
-                <p class="eyebrow reveal">A Message From Our Founder</p>
-                <h2 class="section-title reveal">Dear Neighbors, Partners, and Friends,</h2>
-            </div>
-            <div class="reveal" style="max-width:760px;">
-                <p>Every single night across Ontario, thousands of individuals lay their heads down in emergency shelter beds. But if you look closer, you will find a hidden truth: many of these individuals do not need permanent, institutional care. They possess the skills, the desire, and the capacity to live independently in our communities. Yet, they find themselves caught in a cycle of housing failure simply because the bridge between the shelter and the real world lacks a safety net.</p>
-                <p>I founded <strong>Asher's Place Community Homes</strong> to be that exact bridge.</p>
-                <p>Our mission isn't just about putting roofs over heads&mdash;it is about restoring baseline human dignity. By wrapping independent community apartments in a structured, 12-hour mobile daytime support staff framework, we provide the precise amount of care needed to ensure long-term housing stability. We manage medication, we build real-world life skills, and we enforce strict behavioral accountability, all while allowing our participants to reclaim their independence.</p>
-                <p>We are launching an urgent campaign to secure our first 20 housing units across Milton, Peel, Toronto, Durham, Brantford, and the Waterloo Region. We cannot do this in isolation. We need landlords willing to partner on stable leases, social lenders ready to invest in systemic change, and community members willing to lend their financial and material support.</p>
-                <p>Homelessness is a massive crisis, but the solution can be built one apartment, one life, and one daytime check-in at a time. Thank you for standing with us to open doors and rebuild lives.</p>
-                <p>With deep gratitude,<br><strong>Founder &amp; Initial Director</strong><br>Asher's Place Community Homes</p>
-            </div>
-        </div>
-    </section>
-
     <!-- ============ OUR COMMUNITY ============ -->
     <section class="community" id="community">
         <div class="container">
@@ -2560,7 +2641,7 @@
                 <p class="reveal" style="color:rgba(255,255,255,0.78); max-width:700px; margin-left:auto; margin-right:auto;">Are you a social financier, a community organization, or a local landlord with properties to lease? Get in touch with our team today.</p>
             </div>
             <p class="reveal" style="text-align:center; display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
-                <a href="mailto:info@ashersplace.ca" class="btn btn-cream">info@ashersplace.ca</a>
+                <a href="mailto:info@ashersplacecommunityhomes.ca" class="btn btn-cream">info@ashersplacecommunityhomes.ca</a>
                 <a href="tel:+18888493319" class="btn btn-outline-light">+1 888 849 3319</a>
             </p>
             <p class="reveal" style="text-align:center; color:rgba(255,255,255,0.55); font-size:0.85rem; margin-top:20px;">Corporate Registration: Ontario Non-Profit Corporation &middot; Federal Charitable Registration: In Queue / Pending</p>
@@ -2588,7 +2669,7 @@
                                 <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6" />
                                 <path d="M3 7l9 6 9-6" stroke="currentColor" stroke-width="1.6" />
                             </svg></span>
-                        <div><strong>General Inquiries</strong><span>info@ashersplace.ca</span></div>
+                        <div><strong>General Inquiries</strong><span>info@ashersplacecommunityhomes.ca</span></div>
                     </li>
                     <li>
                         <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none">
@@ -2619,17 +2700,17 @@
                 </ul>
 
                 <div class="map-container">
-    <iframe
-        src="https://www.google.com/maps?q=71+Rosedale+Building+B+Unit+B12,+Brampton,+ON+L6X+1K4&z=15&output=embed"
-        width="100%"
-        height="220"
-        style="border:0;"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-        aria-label="Map showing Asher's Place location at 71 Rosedale, Building B, Unit B12, Brampton, ON L6X 1K4">
-    </iframe>
-</div>
+                    <iframe
+                        src="https://www.google.com/maps?q=71+Rosedale+Building+B+Unit+B12,+Brampton,+ON+L6X+1K4&z=15&output=embed"
+                        width="100%"
+                        height="220"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        aria-label="Map showing Asher's Place location at 71 Rosedale, Building B, Unit B12, Brampton, ON L6X 1K4">
+                    </iframe>
+                </div>
             </div>
 
             <form class="contact-form reveal" aria-label="Contact form">
@@ -2675,96 +2756,6 @@
     </section>
 
 </main>
-
-<!-- ============ FOUNDER'S WELCOME (FOOTNOTE) ============ -->
-<section class="founder-footnote">
-    <div class="container founder-footnote__inner">
-        <div class="founder-footnote__media">
-            <img src="assets/images/nancy.jpeg" alt="Founder of Asher's Place Community Homes" loading="lazy">
-        </div>
-        <div class="founder-footnote__content">
-            <p class="eyebrow eyebrow-light">A Note From Our Founder</p>
-            <p class="founder-footnote__quote">"Homelessness is a massive crisis, but the solution can be built one apartment, one life, and one daytime check-in at a time. Thank you for standing with us to open doors and rebuild lives."</p>
-            <p class="founder-footnote__name">Founder &amp; Initial Director</p>
-            <p class="founder-footnote__role">Asher's Place Community Homes</p>
-        </div>
-    </div>
-</section>
-
-<!-- ============ MEET THE FACES OF ASHER'S PLACE ============ -->
-<section class="team-section" id="team">
-    <div class="container">
-        <div class="section-head" style="text-align:center; max-width:640px; margin-left:auto; margin-right:auto;">
-            <p class="eyebrow reveal" style="justify-content:center;">The People Behind The Mission</p>
-            <h2 class="section-title reveal">Meet the Faces of Asher's Place</h2>
-            <p class="section-lede reveal" style="margin-left:auto; margin-right:auto;">The team dedicated every day to bridging the gap between homelessness and permanent independence.</p>
-        </div>
-        <div class="team-slider reveal">
-            <div class="team-track" id="teamTrack">
-                <article class="team-slide">
-                    <div class="team-media">
-                        <div class="team-photo">
-                            <img src="assets/images/founders/1.jpeg" alt="Founder &amp; Initial Director of Asher's Place Community Homes" loading="lazy">
-                        </div>
-                    </div>
-                    <div class="team-card">
-                        <h3>Founder &amp; Initial Director</h3>
-                        <span class="team-role">Guiding Asher's Place with a mission rooted in dignity, stability, and practical housing solutions for those facing homelessness.</span>
-                    </div>
-                </article>
-                <article class="team-slide">
-                    <div class="team-media">
-                        <div class="team-photo">
-                            <img src="assets/images/founders/2.jpg" alt="Community partnerships leader at Asher's Place Community Homes" loading="lazy">
-                        </div>
-                    </div>
-                    <div class="team-card">
-                        <h3>Community Partnerships Lead</h3>
-                        <span class="team-role">Building lasting relationships with landlords, funders, and local partners to expand safe, supportive housing opportunities across Ontario.</span>
-                    </div>
-                </article>
-                <article class="team-slide">
-                    <div class="team-media">
-                        <div class="team-photo">
-                            <img src="assets/images/founders/3.jpg" alt="Support services team member at Asher's Place Community Homes" loading="lazy">
-                        </div>
-                    </div>
-                    <div class="team-card">
-                        <h3>Support Services Team</h3>
-                        <span class="team-role">Delivering responsive case management, housing navigation, and day-to-day support that helps residents build a stable path forward.</span>
-                    </div>
-                </article>
-                <article class="team-slide">
-                    <div class="team-media">
-                        <div class="team-photo">
-                            <img src="assets/images/founders/4.jpeg" alt="Operations and housing team member at Asher's Place Community Homes" loading="lazy">
-                        </div>
-                    </div>
-                    <div class="team-card">
-                        <h3>Operations &amp; Housing Team</h3>
-                        <span class="team-role">Coordinating the practical details that sustain safe, well-managed homes and keep residents connected to the care they need.</span>
-                    </div>
-                </article>
-                <article class="team-slide">
-                    <div class="team-media">
-                        <div class="team-photo">
-                            <img src="assets/images/founders/5.jpeg" alt="Community engagement team member at Asher's Place Community Homes" loading="lazy">
-                        </div>
-                    </div>
-                    <div class="team-card">
-                        <h3>Community Engagement Team</h3>
-                        <span class="team-role">Connecting neighbors, volunteers, and advocates so the mission can grow from local care into long-term housing impact.</span>
-                    </div>
-                </article>
-            </div>
-            <div class="team-controls">
-                <button type="button" class="team-btn" id="teamPrev" aria-label="Previous team member">&larr;</button>
-                <div class="team-dots" id="teamDots"></div>
-                <button type="button" class="team-btn" id="teamNext" aria-label="Next team member">&rarr;</button>
-            </div>
-        </div>
-    </div>
-</section>
 
 <?php include 'include/footer.php'; ?>
 <?php include 'include/script.php'; ?>
