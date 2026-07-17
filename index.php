@@ -2192,7 +2192,7 @@
                 <p class="eyebrow reveal">Who We Are &amp; Our Why</p>
                 <h2 class="section-title reveal">The Heart Behind Asher's Place</h2>
                 <p class="reveal">Founded as a proactive response to Ontario's visible housing crisis, Asher's Place Community Homes is an incorporated provincial non-profit organization. Our Why is simple: many people experiencing homelessness&mdash;whether stuck in emergency shelter systems or coming out of mental health rehabilitation&mdash;possess the daily living skills needed to thrive independently, yet they experience recurring housing failures simply due to a lack of structured daytime stabilization, baseline accountability, and targeted care.</p>
-                <p class="reveal"><strong>Our Mission:</strong> To bridge the critical gap between homelessness&mdash;including emergency shelter dependency&mdash;and permanent independence by providing stable, affordable housing coupled with targeted, daytime mobile case management.</p>
+                <p class="reveal"><strong>Our Mission:</strong> To bridge the critical gap between homelessness&mdash;including emergency shelter dependency&mdash;and permanent independence by providing stable, affordable housing coupled with targeted, daytime mobile support and case management.</p>
                 <p class="reveal"><strong>Our Vision:</strong> A future where temporary vulnerability does not lead to permanent homelessness, and where community-based, public-private partnerships create sustainable paths to lifelong housing stability.</p>
                 <div class="dei-block reveal">
           <h3 class="dei-title">Our Commitment to Diversity, Equity, and Inclusion (DEI)</h3>
@@ -2253,6 +2253,22 @@
                 <p class="founder-footnote__quote">"Homelessness is a massive crisis, but the solution can be built one apartment, one life, and one daytime check-in at a time. Thank you for standing with us to open doors and rebuild lives."</p>
                 <p class="founder-footnote__name">Nancy Audu </p>
                 <p class="founder-footnote__role">Founder &amp; Initial Director, Asher's Place Community Homes</p>
+            </div>
+        </div>
+    </section>
+    <section class="stories" id="stories">
+        <div class="container">
+            <div class="section-head">
+                <p class="eyebrow reveal">A Message From Our Founder</p>
+                <h2 class="section-title reveal">Dear Neighbors, Partners, and Friends,</h2>
+            </div>
+            <div class="reveal" style="max-width:760px;">
+                <p>Every single night across Ontario, thousands of individuals lay their heads down in emergency shelter beds. But if you look closer, you will find a hidden truth: many of these individuals do not need permanent, institutional care. They possess the skills, the desire, and the capacity to live independently in our communities. Yet, they find themselves caught in a cycle of housing failure simply because the bridge between the shelter and the real world lacks a safety net.</p>
+                <p>I founded <strong>Asher's Place Community Homes</strong> to be that exact bridge.</p>
+                <p>Our mission isn't just about putting roofs over heads&mdash;it is about restoring baseline human dignity. By wrapping independent community apartments in a structured, 12-hour mobile daytime support staff framework, we provide the precise amount of care needed to ensure long-term housing stability. We manage medication, we build real-world life skills, and we enforce strict behavioral accountability, all while allowing our participants to reclaim their independence.</p>
+                <p>We are launching an urgent campaign to secure our first 20 housing units across Milton, Peel, Toronto, Durham, Brantford, and the Waterloo Region. We cannot do this in isolation. We need landlords willing to partner on stable leases, social lenders ready to invest in systemic change, and community members willing to lend their financial and material support.</p>
+                <p>Homelessness is a massive crisis, but the solution can be built one apartment, one life, and one daytime check-in at a time. Thank you for standing with us to open doors and rebuild lives.</p>
+                <p>With deep gratitude,<br><strong>Nancy Audu</strong><br><strong>Founder &amp; Initial Director</strong><br>Asher's Place Community Homes</p>
             </div>
         </div>
     </section>
