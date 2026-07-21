@@ -2199,8 +2199,8 @@
           <p>At Asher&rsquo;s Place Community Homes, DEI is not a policy checkbox&mdash;it is the operational foundation of our housing model. True housing stability cannot exist without cultural safety and absolute equity. We recognize that systemic barriers disproportionately push marginalized communities into housing insecurity.</p>
           <p>We actively dismantle these barriers through three core commitments:</p>
           <ul class="dei-list">
-            <li><strong>Equitable Care Delivery:</strong> Our 12-Hour Daytime Mobile Support model is explicitly tailored to respect individual cultural backgrounds, gender identities, and lived experiences. We deliver trauma-informed care that honors the unique identity of every resident.</li>
-            <li><strong>Inclusive Field Frameworks:</strong> We strictly cultivate a workforce and volunteer network that reflects the rich diversity of the Halton, Peel, Toronto, and Durham regions we serve.</li>
+            <li><strong>Equitable Care Delivery:</strong> Our 12-Hour Daytime Mobile Support model is explicitly tailored to respect individual cultural backgrounds, gender identities, and lived experiences. We deliver person-centered, trauma-informed care that honors the unique identity of every resident.</li>
+            <li><strong>Inclusive Field Frameworks:</strong> We strictly cultivate a workforce and volunteer network that reflects the rich diversity of the Halton, Peel, Toronto, Durham and Waterloo regions we serve.</li>
             <li><strong>Accessible Systems:</strong> We continually optimize our physical setups, documentation, and communication pathways to ensure our housing environments are welcoming and accessible to individuals of all abilities and backgrounds.</li>
           </ul>
         </div>
@@ -2660,7 +2660,7 @@
                 <a href="mailto:info@ashersplacecommunityhomes.ca" class="btn btn-cream">info@ashersplacecommunityhomes.ca</a>
                 <a href="tel:+18888493319" class="btn btn-outline-light">+1 888 849 3319</a>
             </p>
-            <p class="reveal" style="text-align:center; color:rgba(255,255,255,0.55); font-size:0.85rem; margin-top:20px;">Corporate Registration: Ontario Non-Profit Corporation &middot; Federal Charitable Registration: In Queue / Pending</p>
+            <p class="reveal" style="text-align:center; color:rgba(255,255,255,0.55); font-size:0.85rem; margin-top:20px;">Corporate Registration: Ontario Non-Profit Corporation &middot; In Partnership With The House Of Praise Federal Charitable Registration: #.....</p>
         </div>
     </section>
 
